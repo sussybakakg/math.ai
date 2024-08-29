@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Learning Website</title>
+    <style>
+        body {
+            display: flex; /* Flexbox for centering content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f4f4f4; /* Light background color */
+            font-family: 'Arial', sans-serif; /* Font style */
+        }
+        .message-container {
+            background-color: #fff; /* White background for message box */
+            padding: 30px 50px; /* Padding inside the box */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            text-align: center; /* Centered text */
+        }
+        .message-container h1 {
+            font-size: 2em; /* Large font size */
+            color: #333; /* Dark text color */
+            margin: 0; /* No margin for the header */
+        }
+        .message-container p {
+            margin-top: 20px; /* Space above the paragraph */
+            color: #555; /* Slightly lighter text color */
+            font-size: 1.2em; /* Larger font size for paragraph */
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <h1>Welcome to Our Math Learning Website!</h1>
+        <p>This website will make you know math.</p>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Math Quiz</title>
+    <style>
+        body {
+            display: flex; /* Centering content */
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f4f4f4; /* Light background */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+
+        .open-button {
+            padding: 15px 30px; /* Button padding */
+            font-size: 1.2em; /* Font size */
+            background-color: #007bff; /* Button background color */
+            color: white; /* Button text color */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+        }
+
+        .open-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        .open-button:active {
+            transform: scale(0.95); /* Slightly shrink on click */
+        }
+    </style>
+</head>
+<body>
+    <button class="open-button" onclick="openMathQuiz()">Open Math Quiz</button>
+
+    <script>
+        function openMathQuiz() {
+            window.open('https://sussybakakg.github.io/math-quiz/', '_blank'); // Open URL in a new tab
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open YouTube Channel</title>
+    <style>
+        body {
+            display: flex; /* Flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f4f4f4; /* Light background color */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+        .button-container {
+            text-align: center; /* Center text */
+        }
+        .neat-button {
+            background-color: #007bff; /* Blue background */
+            color: white; /* White text */
+            border: none; /* No border */
+            padding: 15px 30px; /* Padding around the button */
+            font-size: 18px; /* Larger font size */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+        }
+        .neat-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: translateY(-2px); /* Lift effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="neat-button" onclick="openYouTube()">Open Math YouTube Channel</button>
+    </div>
+
+    <script>
+        function openYouTube() {
+            window.open('https://www.youtube.com/@Droosmath', '_blank'); // Opens the URL in a new tab
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Website Background</title>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            height: 100vh; /* Full viewport height */
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20230503013704/Mathematics-Banner.webp'); /* Set background image */
+            background-size: cover; /* Cover the entire page */
+            background-repeat: no-repeat; /* No repeat of the image */
+            background-position: center; /* Center the background image */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+        .content {
+            display: flex; /* Flexbox to center content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100%; /* Full height */
+            color: white; /* White text for contrast */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+            text-align: center; /* Centered text */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+    </div>
+</body>
+</html>
